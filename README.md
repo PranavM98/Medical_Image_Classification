@@ -13,8 +13,10 @@ For this project, the team aims to replicate an earlier work by Hussain et al. o
 1. Git clone the repository.
 2. Move all notebooks in the Code folder in git repository, to Google Colab or another container with GPU access for faster runtime.
 3. Notebooks labelled "01" to "05" reference the 5 models created (baseline, gaussian blur, gaussian noise, random rotations, and color jittering). Open the desired notebook in Google Colab or another container of your choice. 
-4. Select "Restart Kernal and Run All Cells" or the equivalent of it in your chosen container settings.
-5. The model validation section towards the end of the notebook will allow you to assess model performance corresponding to that data augmentation technique.
+4. Move the "training10_0.tfrecords" file into your google drive or container comprising of the notebooks. 
+5. Update the filepath to your "training10_0.tfrecords" file in the code, so the notebook can successfully load the dataset.
+6. Once the filepath has been updated, select "Restart Kernal and Run All Cells" or the equivalent of it in your chosen container settings.
+7. The model validation section towards the end of the notebook will allow you to assess model performance corresponding to that data augmentation technique.
 
 
 # Compare All Model Outputs (Side-by-Side)
