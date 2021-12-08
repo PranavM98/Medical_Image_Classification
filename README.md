@@ -20,6 +20,6 @@ For this project, the team aims to replicate an earlier work by Hussain et al. o
 
 
 # Compare All Model Outputs (Side-by-Side)
-1. Having already cloned the git repository by folling the above stepsw, open the "Model_Results.ipynb" notebook in your local laptop's jupyter instance (You do not need GPU availability for model comparision).
+1. Having already cloned the git repository by folling the above steps, open the "Model_Results.ipynb" notebook in your local laptop's jupyter instance (You do not need GPU availability for model comparision). This file exists inside the Code directory.
 2. Select "Restart Kernal and Run ALl Cells" or the equivalent of it in your chosen container settings.
 3. This will allow you to assess all model's ROC curve, PR curve, Accuracy, Precision, Recall, F1, Balanced Accuracy, AUC, and Average Precision Scores.
